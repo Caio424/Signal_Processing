@@ -24,14 +24,23 @@ A atividade foi estruturada em **desafios práticos** onde você deve:
 
 ## Conteúdo
 
-### Notebooks
+### Notebooks (`labs/`)
 
-- **`le04_01_signal-reconstruction_resolvido.ipynb`** - Notebook principal com:
-  - Função `create_sine_signal()` - gera senoides puras
-  - Função `SIGNALtone()` - wrapper com fs padrão
-  - Função `SIGNALwaveform()` - gera tons com forma de onda aleatória
-  - Análise com FFT e visualização espectral
-  - Desafios e perguntas respondidas em código
+Todos os notebooks de laboratório da disciplina, organizados por tópico:
+
+- **`labs/le02/`** - Sinais analógicos x digitais e Teorema da Amostragem
+  - `le02_pt01_analog-digital-signals.ipynb`
+  - `le02_pt02_sampling-theorem.ipynb`
+- **`labs/le03_discrete-time-signals/`** - Sinais de tempo discreto
+  - `le03_basic-signals.ipynb`
+  - `le03_basic-signal-library.ipynb`
+- **`labs/le04_karplus-strong/`** - Reconstrução de sinais e síntese Karplus-Strong
+  - `le04_01_signal-reconstruction_resolvido.ipynb`:
+    - Função `create_sine_signal()` - gera senoides puras
+    - Função `SIGNALtone()` - wrapper com fs padrão
+    - Função `SIGNALwaveform()` - gera tons com forma de onda aleatória
+    - Análise com FFT e visualização espectral
+    - Desafios e perguntas respondidas em código
 
 ### Módulos Python
 
@@ -74,10 +83,10 @@ Se `fs < 2f`, ocorre **aliasing** e você ouve uma frequência errada.
 
 ## Como Usar
 
-### Executar o Notebook
+### Executar um Notebook
 
 ```bash
-jupyter notebook le04_01_signal-reconstruction_resolvido.ipynb
+jupyter notebook labs/le04_karplus-strong/le04_01_signal-reconstruction_resolvido.ipynb
 ```
 
 ### Usar as Funções em Python
