@@ -120,8 +120,8 @@ Ao completar a atividade, você deve entender:
 
 ## Autor
 
-**Caio Moreira Bovo da Cunha Gomes** (202505969)
-**Felipe Rodrigues de Sousa** (202504000)
+**Caio Moreira Bovo da Cunha Gomes** 
+
 
 ---
 
