@@ -41,6 +41,14 @@ Todos os notebooks de laboratório da disciplina, organizados por tópico:
     - Função `SIGNALwaveform()` - gera tons com forma de onda aleatória
     - Análise com FFT e visualização espectral
     - Desafios e perguntas respondidas em código
+- **`labs/le11_image-processing-pt1/`** - Processamento de imagens em Python
+  - `le10_python-tutorial.ipynb`:
+    - NumPy: arrays, operações (`@`, `*`, `.T`) e indexação (fatiamento, booleana, 2-D)
+    - Leitura de imagens com Matplotlib, OpenCV e PIL
+    - Filtro Gaussiano 2-D (passa-baixa) e convolução por canal de cor
+    - Convolução rápida via FFT 2-D (`np.fft.fft2` / `np.fft.ifft2`)
+    - Derivada da Gaussiana (filtro separável) e tensor de estrutura
+  - `capybaras.png` - imagem usada no notebook
 
 ### Módulos Python
 
@@ -125,4 +133,4 @@ Ao completar a atividade, você deve entender:
 
 ---
 
-**Última atualização**: 02 de outubro de 2026
+**Última atualização**: 16 de outubro de 2026
